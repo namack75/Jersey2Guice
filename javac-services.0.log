@@ -1,0 +1,669 @@
+INFO	?	main	2016-08-30T01:42:51.348Z	org.javacs.Main#connectToNode	Connected to parent using socket on port 55282
+INFO	?	main	2016-08-30T01:42:51.498Z	org.javacs.JavaLanguageServer#doLint	Lint d:\_Coding\jersey2guice\src\main\java\com\dookie\jersey\container\ApplicationResourceConfig.java
+INFO	?	main	2016-08-30T01:42:51.696Z	org.javacs.JavaLanguageServer#buildClassPath	Emit classpath to C:\Users\nolan\AppData\Local\Temp\classpath5084562620400414426.txt
+SEVERE	?	main	2016-08-30T01:42:51.696Z	org.javacs.Main$4#onError	java.io.IOException: Cannot run program "mvn" (in directory "d:\_Coding\jersey2guice"): CreateProcess error=2, The system cannot find the file specified
+java.lang.RuntimeException: java.io.IOException: Cannot run program "mvn" (in directory "d:\_Coding\jersey2guice"): CreateProcess error=2, The system cannot find the file specified
+	at org.javacs.JavaLanguageServer.buildClassPath(JavaLanguageServer.java:562)
+	at org.javacs.JavaLanguageServer.readIfConfig(JavaLanguageServer.java:525)
+	at org.javacs.JavaLanguageServer.doFindConfig(JavaLanguageServer.java:494)
+	at org.javacs.JavaLanguageServer$$Lambda$55/92623.apply(Unknown Source)
+	at java.util.HashMap.computeIfAbsent(Unknown Source)
+	at org.javacs.JavaLanguageServer.findConfig(JavaLanguageServer.java:489)
+	at org.javacs.JavaLanguageServer.findCompiler(JavaLanguageServer.java:454)
+	at org.javacs.JavaLanguageServer.doLint(JavaLanguageServer.java:310)
+	at org.javacs.JavaLanguageServer.access$400(JavaLanguageServer.java:31)
+	at org.javacs.JavaLanguageServer$1.didOpen(JavaLanguageServer.java:200)
+	at io.typefox.lsapi.services.transport.server.LanguageServerEndpoint._doAccept(LanguageServerEndpoint.xtend:198)
+	at io.typefox.lsapi.services.transport.server.LanguageServerEndpoint.doAccept(LanguageServerEndpoint.xtend:194)
+	at io.typefox.lsapi.services.transport.server.LanguageServerEndpoint.accept(LanguageServerEndpoint.xtend:114)
+	at io.typefox.lsapi.services.transport.server.LanguageServerEndpoint.accept(LanguageServerEndpoint.xtend)
+	at io.typefox.lsapi.services.transport.AbstractLanguageEndpoint.handleMessage(LanguageEndpoint.xtend:67)
+	at io.typefox.lsapi.services.transport.AbstractLanguageEndpoint.lambda$connect$4(LanguageEndpoint.xtend:61)
+	at io.typefox.lsapi.services.transport.AbstractLanguageEndpoint$$Lambda$51/20597636.accept(Unknown Source)
+	at io.typefox.lsapi.services.json.StreamMessageReader$1.apply(StreamMessageReader.java:45)
+	at io.typefox.lsapi.services.json.StreamMessageReader$1.apply(StreamMessageReader.java:43)
+	at io.typefox.lsapi.services.json.StreamMessageReader.handleMessage(StreamMessageReader.xtend:128)
+	at io.typefox.lsapi.services.json.StreamMessageReader.listen(StreamMessageReader.xtend:61)
+	at io.typefox.lsapi.services.transport.AbstractLanguageEndpoint.connect(LanguageEndpoint.xtend:60)
+	at org.javacs.Main.run(Main.java:150)
+	at org.javacs.Main.main(Main.java:69)
+Caused by: java.io.IOException: Cannot run program "mvn" (in directory "d:\_Coding\jersey2guice"): CreateProcess error=2, The system cannot find the file specified
+	at java.lang.ProcessBuilder.start(Unknown Source)
+	at java.lang.Runtime.exec(Unknown Source)
+	at java.lang.Runtime.exec(Unknown Source)
+	at org.javacs.JavaLanguageServer.buildClassPath(JavaLanguageServer.java:555)
+	... 23 more
+Caused by: java.io.IOException: CreateProcess error=2, The system cannot find the file specified
+	at java.lang.ProcessImpl.create(Native Method)
+	at java.lang.ProcessImpl.<init>(Unknown Source)
+	at java.lang.ProcessImpl.start(Unknown Source)
+	... 27 more
+
+INFO	?	main	2016-08-30T01:43:14.289Z	org.javacs.JavaLanguageServer#buildClassPath	Emit classpath to C:\Users\nolan\AppData\Local\Temp\classpath357693087845614525.txt
+SEVERE	?	main	2016-08-30T01:43:14.290Z	org.javacs.Main$4#onError	java.io.IOException: Cannot run program "mvn" (in directory "d:\_Coding\jersey2guice"): CreateProcess error=2, The system cannot find the file specified
+java.lang.RuntimeException: java.io.IOException: Cannot run program "mvn" (in directory "d:\_Coding\jersey2guice"): CreateProcess error=2, The system cannot find the file specified
+	at org.javacs.JavaLanguageServer.buildClassPath(JavaLanguageServer.java:562)
+	at org.javacs.JavaLanguageServer.readIfConfig(JavaLanguageServer.java:525)
+	at org.javacs.JavaLanguageServer.doFindConfig(JavaLanguageServer.java:494)
+	at org.javacs.JavaLanguageServer$$Lambda$55/92623.apply(Unknown Source)
+	at java.util.HashMap.computeIfAbsent(Unknown Source)
+	at org.javacs.JavaLanguageServer.findConfig(JavaLanguageServer.java:489)
+	at org.javacs.JavaLanguageServer.findCompiler(JavaLanguageServer.java:454)
+	at org.javacs.JavaLanguageServer$1.didClose(JavaLanguageServer.java:234)
+	at io.typefox.lsapi.services.transport.server.LanguageServerEndpoint._doAccept(LanguageServerEndpoint.xtend:202)
+	at io.typefox.lsapi.services.transport.server.LanguageServerEndpoint.doAccept(LanguageServerEndpoint.xtend:194)
+	at io.typefox.lsapi.services.transport.server.LanguageServerEndpoint.accept(LanguageServerEndpoint.xtend:114)
+	at io.typefox.lsapi.services.transport.server.LanguageServerEndpoint.accept(LanguageServerEndpoint.xtend)
+	at io.typefox.lsapi.services.transport.AbstractLanguageEndpoint.handleMessage(LanguageEndpoint.xtend:67)
+	at io.typefox.lsapi.services.transport.AbstractLanguageEndpoint.lambda$connect$4(LanguageEndpoint.xtend:61)
+	at io.typefox.lsapi.services.transport.AbstractLanguageEndpoint$$Lambda$51/20597636.accept(Unknown Source)
+	at io.typefox.lsapi.services.json.StreamMessageReader$1.apply(StreamMessageReader.java:45)
+	at io.typefox.lsapi.services.json.StreamMessageReader$1.apply(StreamMessageReader.java:43)
+	at io.typefox.lsapi.services.json.StreamMessageReader.handleMessage(StreamMessageReader.xtend:128)
+	at io.typefox.lsapi.services.json.StreamMessageReader.listen(StreamMessageReader.xtend:61)
+	at io.typefox.lsapi.services.transport.AbstractLanguageEndpoint.connect(LanguageEndpoint.xtend:60)
+	at org.javacs.Main.run(Main.java:150)
+	at org.javacs.Main.main(Main.java:69)
+Caused by: java.io.IOException: Cannot run program "mvn" (in directory "d:\_Coding\jersey2guice"): CreateProcess error=2, The system cannot find the file specified
+	at java.lang.ProcessBuilder.start(Unknown Source)
+	at java.lang.Runtime.exec(Unknown Source)
+	at java.lang.Runtime.exec(Unknown Source)
+	at org.javacs.JavaLanguageServer.buildClassPath(JavaLanguageServer.java:555)
+	... 21 more
+Caused by: java.io.IOException: CreateProcess error=2, The system cannot find the file specified
+	at java.lang.ProcessImpl.create(Native Method)
+	at java.lang.ProcessImpl.<init>(Unknown Source)
+	at java.lang.ProcessImpl.start(Unknown Source)
+	... 25 more
+
+INFO	?	main	2016-08-30T01:43:14.325Z	org.javacs.JavaLanguageServer#doLint	Lint d:\_Coding\jersey2guice\src\main\java\com\dookie\jersey\container\ApplicationConfig.java
+INFO	?	main	2016-08-30T01:43:14.327Z	org.javacs.JavaLanguageServer#buildClassPath	Emit classpath to C:\Users\nolan\AppData\Local\Temp\classpath2783153395962124139.txt
+SEVERE	?	main	2016-08-30T01:43:14.329Z	org.javacs.Main$4#onError	java.io.IOException: Cannot run program "mvn" (in directory "d:\_Coding\jersey2guice"): CreateProcess error=2, The system cannot find the file specified
+java.lang.RuntimeException: java.io.IOException: Cannot run program "mvn" (in directory "d:\_Coding\jersey2guice"): CreateProcess error=2, The system cannot find the file specified
+	at org.javacs.JavaLanguageServer.buildClassPath(JavaLanguageServer.java:562)
+	at org.javacs.JavaLanguageServer.readIfConfig(JavaLanguageServer.java:525)
+	at org.javacs.JavaLanguageServer.doFindConfig(JavaLanguageServer.java:494)
+	at org.javacs.JavaLanguageServer$$Lambda$55/92623.apply(Unknown Source)
+	at java.util.HashMap.computeIfAbsent(Unknown Source)
+	at org.javacs.JavaLanguageServer.findConfig(JavaLanguageServer.java:489)
+	at org.javacs.JavaLanguageServer.findCompiler(JavaLanguageServer.java:454)
+	at org.javacs.JavaLanguageServer.doLint(JavaLanguageServer.java:310)
+	at org.javacs.JavaLanguageServer.access$400(JavaLanguageServer.java:31)
+	at org.javacs.JavaLanguageServer$1.didOpen(JavaLanguageServer.java:200)
+	at io.typefox.lsapi.services.transport.server.LanguageServerEndpoint._doAccept(LanguageServerEndpoint.xtend:198)
+	at io.typefox.lsapi.services.transport.server.LanguageServerEndpoint.doAccept(LanguageServerEndpoint.xtend:194)
+	at io.typefox.lsapi.services.transport.server.LanguageServerEndpoint.accept(LanguageServerEndpoint.xtend:114)
+	at io.typefox.lsapi.services.transport.server.LanguageServerEndpoint.accept(LanguageServerEndpoint.xtend)
+	at io.typefox.lsapi.services.transport.AbstractLanguageEndpoint.handleMessage(LanguageEndpoint.xtend:67)
+	at io.typefox.lsapi.services.transport.AbstractLanguageEndpoint.lambda$connect$4(LanguageEndpoint.xtend:61)
+	at io.typefox.lsapi.services.transport.AbstractLanguageEndpoint$$Lambda$51/20597636.accept(Unknown Source)
+	at io.typefox.lsapi.services.json.StreamMessageReader$1.apply(StreamMessageReader.java:45)
+	at io.typefox.lsapi.services.json.StreamMessageReader$1.apply(StreamMessageReader.java:43)
+	at io.typefox.lsapi.services.json.StreamMessageReader.handleMessage(StreamMessageReader.xtend:128)
+	at io.typefox.lsapi.services.json.StreamMessageReader.listen(StreamMessageReader.xtend:61)
+	at io.typefox.lsapi.services.transport.AbstractLanguageEndpoint.connect(LanguageEndpoint.xtend:60)
+	at org.javacs.Main.run(Main.java:150)
+	at org.javacs.Main.main(Main.java:69)
+Caused by: java.io.IOException: Cannot run program "mvn" (in directory "d:\_Coding\jersey2guice"): CreateProcess error=2, The system cannot find the file specified
+	at java.lang.ProcessBuilder.start(Unknown Source)
+	at java.lang.Runtime.exec(Unknown Source)
+	at java.lang.Runtime.exec(Unknown Source)
+	at org.javacs.JavaLanguageServer.buildClassPath(JavaLanguageServer.java:555)
+	... 23 more
+Caused by: java.io.IOException: CreateProcess error=2, The system cannot find the file specified
+	at java.lang.ProcessImpl.create(Native Method)
+	at java.lang.ProcessImpl.<init>(Unknown Source)
+	at java.lang.ProcessImpl.start(Unknown Source)
+	... 27 more
+
+INFO	?	main	2016-08-30T01:43:14.757Z	org.javacs.JavaLanguageServer#buildClassPath	Emit classpath to C:\Users\nolan\AppData\Local\Temp\classpath4909190626987730997.txt
+SEVERE	?	main	2016-08-30T01:43:14.773Z	org.javacs.Main$4#onError	java.io.IOException: Cannot run program "mvn" (in directory "d:\_Coding\jersey2guice"): CreateProcess error=2, The system cannot find the file specified
+java.lang.RuntimeException: java.io.IOException: Cannot run program "mvn" (in directory "d:\_Coding\jersey2guice"): CreateProcess error=2, The system cannot find the file specified
+	at org.javacs.JavaLanguageServer.buildClassPath(JavaLanguageServer.java:562)
+	at org.javacs.JavaLanguageServer.readIfConfig(JavaLanguageServer.java:525)
+	at org.javacs.JavaLanguageServer.doFindConfig(JavaLanguageServer.java:494)
+	at org.javacs.JavaLanguageServer$$Lambda$55/92623.apply(Unknown Source)
+	at java.util.HashMap.computeIfAbsent(Unknown Source)
+	at org.javacs.JavaLanguageServer.findConfig(JavaLanguageServer.java:489)
+	at org.javacs.JavaLanguageServer.findCompiler(JavaLanguageServer.java:454)
+	at org.javacs.JavaLanguageServer$2.lambda$didChangeWatchedFiles$17(JavaLanguageServer.java:352)
+	at org.javacs.JavaLanguageServer$2$$Lambda$56/23345353.accept(Unknown Source)
+	at java.util.Optional.ifPresent(Unknown Source)
+	at org.javacs.JavaLanguageServer$2.didChangeWatchedFiles(JavaLanguageServer.java:351)
+	at io.typefox.lsapi.services.transport.server.LanguageServerEndpoint._doAccept(LanguageServerEndpoint.xtend:208)
+	at io.typefox.lsapi.services.transport.server.LanguageServerEndpoint.doAccept(LanguageServerEndpoint.xtend:194)
+	at io.typefox.lsapi.services.transport.server.LanguageServerEndpoint.accept(LanguageServerEndpoint.xtend:114)
+	at io.typefox.lsapi.services.transport.server.LanguageServerEndpoint.accept(LanguageServerEndpoint.xtend)
+	at io.typefox.lsapi.services.transport.AbstractLanguageEndpoint.handleMessage(LanguageEndpoint.xtend:67)
+	at io.typefox.lsapi.services.transport.AbstractLanguageEndpoint.lambda$connect$4(LanguageEndpoint.xtend:61)
+	at io.typefox.lsapi.services.transport.AbstractLanguageEndpoint$$Lambda$51/20597636.accept(Unknown Source)
+	at io.typefox.lsapi.services.json.StreamMessageReader$1.apply(StreamMessageReader.java:45)
+	at io.typefox.lsapi.services.json.StreamMessageReader$1.apply(StreamMessageReader.java:43)
+	at io.typefox.lsapi.services.json.StreamMessageReader.handleMessage(StreamMessageReader.xtend:128)
+	at io.typefox.lsapi.services.json.StreamMessageReader.listen(StreamMessageReader.xtend:61)
+	at io.typefox.lsapi.services.transport.AbstractLanguageEndpoint.connect(LanguageEndpoint.xtend:60)
+	at org.javacs.Main.run(Main.java:150)
+	at org.javacs.Main.main(Main.java:69)
+Caused by: java.io.IOException: Cannot run program "mvn" (in directory "d:\_Coding\jersey2guice"): CreateProcess error=2, The system cannot find the file specified
+	at java.lang.ProcessBuilder.start(Unknown Source)
+	at java.lang.Runtime.exec(Unknown Source)
+	at java.lang.Runtime.exec(Unknown Source)
+	at org.javacs.JavaLanguageServer.buildClassPath(JavaLanguageServer.java:555)
+	... 24 more
+Caused by: java.io.IOException: CreateProcess error=2, The system cannot find the file specified
+	at java.lang.ProcessImpl.create(Native Method)
+	at java.lang.ProcessImpl.<init>(Unknown Source)
+	at java.lang.ProcessImpl.start(Unknown Source)
+	... 28 more
+
+INFO	?	main	2016-08-30T01:43:49.476Z	org.javacs.JavaLanguageServer#doLint	Lint d:\_Coding\jersey2guice\src\main\java\com\dookie\jersey\exception\RuntimeExceptionMapper.java
+INFO	?	main	2016-08-30T01:43:49.479Z	org.javacs.JavaLanguageServer#buildClassPath	Emit classpath to C:\Users\nolan\AppData\Local\Temp\classpath1726144564103976496.txt
+SEVERE	?	main	2016-08-30T01:43:49.481Z	org.javacs.Main$4#onError	java.io.IOException: Cannot run program "mvn" (in directory "d:\_Coding\jersey2guice"): CreateProcess error=2, The system cannot find the file specified
+java.lang.RuntimeException: java.io.IOException: Cannot run program "mvn" (in directory "d:\_Coding\jersey2guice"): CreateProcess error=2, The system cannot find the file specified
+	at org.javacs.JavaLanguageServer.buildClassPath(JavaLanguageServer.java:562)
+	at org.javacs.JavaLanguageServer.readIfConfig(JavaLanguageServer.java:525)
+	at org.javacs.JavaLanguageServer.doFindConfig(JavaLanguageServer.java:494)
+	at org.javacs.JavaLanguageServer$$Lambda$55/92623.apply(Unknown Source)
+	at java.util.HashMap.computeIfAbsent(Unknown Source)
+	at org.javacs.JavaLanguageServer.findConfig(JavaLanguageServer.java:489)
+	at org.javacs.JavaLanguageServer.findCompiler(JavaLanguageServer.java:454)
+	at org.javacs.JavaLanguageServer.doLint(JavaLanguageServer.java:310)
+	at org.javacs.JavaLanguageServer.access$400(JavaLanguageServer.java:31)
+	at org.javacs.JavaLanguageServer$1.didOpen(JavaLanguageServer.java:200)
+	at io.typefox.lsapi.services.transport.server.LanguageServerEndpoint._doAccept(LanguageServerEndpoint.xtend:198)
+	at io.typefox.lsapi.services.transport.server.LanguageServerEndpoint.doAccept(LanguageServerEndpoint.xtend:194)
+	at io.typefox.lsapi.services.transport.server.LanguageServerEndpoint.accept(LanguageServerEndpoint.xtend:114)
+	at io.typefox.lsapi.services.transport.server.LanguageServerEndpoint.accept(LanguageServerEndpoint.xtend)
+	at io.typefox.lsapi.services.transport.AbstractLanguageEndpoint.handleMessage(LanguageEndpoint.xtend:67)
+	at io.typefox.lsapi.services.transport.AbstractLanguageEndpoint.lambda$connect$4(LanguageEndpoint.xtend:61)
+	at io.typefox.lsapi.services.transport.AbstractLanguageEndpoint$$Lambda$51/20597636.accept(Unknown Source)
+	at io.typefox.lsapi.services.json.StreamMessageReader$1.apply(StreamMessageReader.java:45)
+	at io.typefox.lsapi.services.json.StreamMessageReader$1.apply(StreamMessageReader.java:43)
+	at io.typefox.lsapi.services.json.StreamMessageReader.handleMessage(StreamMessageReader.xtend:128)
+	at io.typefox.lsapi.services.json.StreamMessageReader.listen(StreamMessageReader.xtend:61)
+	at io.typefox.lsapi.services.transport.AbstractLanguageEndpoint.connect(LanguageEndpoint.xtend:60)
+	at org.javacs.Main.run(Main.java:150)
+	at org.javacs.Main.main(Main.java:69)
+Caused by: java.io.IOException: Cannot run program "mvn" (in directory "d:\_Coding\jersey2guice"): CreateProcess error=2, The system cannot find the file specified
+	at java.lang.ProcessBuilder.start(Unknown Source)
+	at java.lang.Runtime.exec(Unknown Source)
+	at java.lang.Runtime.exec(Unknown Source)
+	at org.javacs.JavaLanguageServer.buildClassPath(JavaLanguageServer.java:555)
+	... 23 more
+Caused by: java.io.IOException: CreateProcess error=2, The system cannot find the file specified
+	at java.lang.ProcessImpl.create(Native Method)
+	at java.lang.ProcessImpl.<init>(Unknown Source)
+	at java.lang.ProcessImpl.start(Unknown Source)
+	... 27 more
+
+INFO	?	main	2016-08-30T01:45:00.595Z	org.javacs.JavaLanguageServer#doLint	Lint d:\_Coding\jersey2guice\src\main\java\com\dookie\jersey\module\CommonModule.java
+INFO	?	main	2016-08-30T01:45:00.598Z	org.javacs.JavaLanguageServer#buildClassPath	Emit classpath to C:\Users\nolan\AppData\Local\Temp\classpath5849999714264944581.txt
+SEVERE	?	main	2016-08-30T01:45:00.599Z	org.javacs.Main$4#onError	java.io.IOException: Cannot run program "mvn" (in directory "d:\_Coding\jersey2guice"): CreateProcess error=2, The system cannot find the file specified
+java.lang.RuntimeException: java.io.IOException: Cannot run program "mvn" (in directory "d:\_Coding\jersey2guice"): CreateProcess error=2, The system cannot find the file specified
+	at org.javacs.JavaLanguageServer.buildClassPath(JavaLanguageServer.java:562)
+	at org.javacs.JavaLanguageServer.readIfConfig(JavaLanguageServer.java:525)
+	at org.javacs.JavaLanguageServer.doFindConfig(JavaLanguageServer.java:494)
+	at org.javacs.JavaLanguageServer$$Lambda$55/92623.apply(Unknown Source)
+	at java.util.HashMap.computeIfAbsent(Unknown Source)
+	at org.javacs.JavaLanguageServer.findConfig(JavaLanguageServer.java:489)
+	at org.javacs.JavaLanguageServer.findCompiler(JavaLanguageServer.java:454)
+	at org.javacs.JavaLanguageServer.doLint(JavaLanguageServer.java:310)
+	at org.javacs.JavaLanguageServer.access$400(JavaLanguageServer.java:31)
+	at org.javacs.JavaLanguageServer$1.didOpen(JavaLanguageServer.java:200)
+	at io.typefox.lsapi.services.transport.server.LanguageServerEndpoint._doAccept(LanguageServerEndpoint.xtend:198)
+	at io.typefox.lsapi.services.transport.server.LanguageServerEndpoint.doAccept(LanguageServerEndpoint.xtend:194)
+	at io.typefox.lsapi.services.transport.server.LanguageServerEndpoint.accept(LanguageServerEndpoint.xtend:114)
+	at io.typefox.lsapi.services.transport.server.LanguageServerEndpoint.accept(LanguageServerEndpoint.xtend)
+	at io.typefox.lsapi.services.transport.AbstractLanguageEndpoint.handleMessage(LanguageEndpoint.xtend:67)
+	at io.typefox.lsapi.services.transport.AbstractLanguageEndpoint.lambda$connect$4(LanguageEndpoint.xtend:61)
+	at io.typefox.lsapi.services.transport.AbstractLanguageEndpoint$$Lambda$51/20597636.accept(Unknown Source)
+	at io.typefox.lsapi.services.json.StreamMessageReader$1.apply(StreamMessageReader.java:45)
+	at io.typefox.lsapi.services.json.StreamMessageReader$1.apply(StreamMessageReader.java:43)
+	at io.typefox.lsapi.services.json.StreamMessageReader.handleMessage(StreamMessageReader.xtend:128)
+	at io.typefox.lsapi.services.json.StreamMessageReader.listen(StreamMessageReader.xtend:61)
+	at io.typefox.lsapi.services.transport.AbstractLanguageEndpoint.connect(LanguageEndpoint.xtend:60)
+	at org.javacs.Main.run(Main.java:150)
+	at org.javacs.Main.main(Main.java:69)
+Caused by: java.io.IOException: Cannot run program "mvn" (in directory "d:\_Coding\jersey2guice"): CreateProcess error=2, The system cannot find the file specified
+	at java.lang.ProcessBuilder.start(Unknown Source)
+	at java.lang.Runtime.exec(Unknown Source)
+	at java.lang.Runtime.exec(Unknown Source)
+	at org.javacs.JavaLanguageServer.buildClassPath(JavaLanguageServer.java:555)
+	... 23 more
+Caused by: java.io.IOException: CreateProcess error=2, The system cannot find the file specified
+	at java.lang.ProcessImpl.create(Native Method)
+	at java.lang.ProcessImpl.<init>(Unknown Source)
+	at java.lang.ProcessImpl.start(Unknown Source)
+	... 27 more
+
+INFO	?	main	2016-08-30T01:46:13.782Z	org.javacs.JavaLanguageServer#buildClassPath	Emit classpath to C:\Users\nolan\AppData\Local\Temp\classpath8369470727060810066.txt
+SEVERE	?	main	2016-08-30T01:46:13.784Z	org.javacs.Main$4#onError	java.io.IOException: Cannot run program "mvn" (in directory "d:\_Coding\jersey2guice"): CreateProcess error=2, The system cannot find the file specified
+java.lang.RuntimeException: java.io.IOException: Cannot run program "mvn" (in directory "d:\_Coding\jersey2guice"): CreateProcess error=2, The system cannot find the file specified
+	at org.javacs.JavaLanguageServer.buildClassPath(JavaLanguageServer.java:562)
+	at org.javacs.JavaLanguageServer.readIfConfig(JavaLanguageServer.java:525)
+	at org.javacs.JavaLanguageServer.doFindConfig(JavaLanguageServer.java:494)
+	at org.javacs.JavaLanguageServer$$Lambda$55/92623.apply(Unknown Source)
+	at java.util.HashMap.computeIfAbsent(Unknown Source)
+	at org.javacs.JavaLanguageServer.findConfig(JavaLanguageServer.java:489)
+	at org.javacs.JavaLanguageServer.findCompiler(JavaLanguageServer.java:454)
+	at org.javacs.JavaLanguageServer$1.didClose(JavaLanguageServer.java:234)
+	at io.typefox.lsapi.services.transport.server.LanguageServerEndpoint._doAccept(LanguageServerEndpoint.xtend:202)
+	at io.typefox.lsapi.services.transport.server.LanguageServerEndpoint.doAccept(LanguageServerEndpoint.xtend:194)
+	at io.typefox.lsapi.services.transport.server.LanguageServerEndpoint.accept(LanguageServerEndpoint.xtend:114)
+	at io.typefox.lsapi.services.transport.server.LanguageServerEndpoint.accept(LanguageServerEndpoint.xtend)
+	at io.typefox.lsapi.services.transport.AbstractLanguageEndpoint.handleMessage(LanguageEndpoint.xtend:67)
+	at io.typefox.lsapi.services.transport.AbstractLanguageEndpoint.lambda$connect$4(LanguageEndpoint.xtend:61)
+	at io.typefox.lsapi.services.transport.AbstractLanguageEndpoint$$Lambda$51/20597636.accept(Unknown Source)
+	at io.typefox.lsapi.services.json.StreamMessageReader$1.apply(StreamMessageReader.java:45)
+	at io.typefox.lsapi.services.json.StreamMessageReader$1.apply(StreamMessageReader.java:43)
+	at io.typefox.lsapi.services.json.StreamMessageReader.handleMessage(StreamMessageReader.xtend:128)
+	at io.typefox.lsapi.services.json.StreamMessageReader.listen(StreamMessageReader.xtend:61)
+	at io.typefox.lsapi.services.transport.AbstractLanguageEndpoint.connect(LanguageEndpoint.xtend:60)
+	at org.javacs.Main.run(Main.java:150)
+	at org.javacs.Main.main(Main.java:69)
+Caused by: java.io.IOException: Cannot run program "mvn" (in directory "d:\_Coding\jersey2guice"): CreateProcess error=2, The system cannot find the file specified
+	at java.lang.ProcessBuilder.start(Unknown Source)
+	at java.lang.Runtime.exec(Unknown Source)
+	at java.lang.Runtime.exec(Unknown Source)
+	at org.javacs.JavaLanguageServer.buildClassPath(JavaLanguageServer.java:555)
+	... 21 more
+Caused by: java.io.IOException: CreateProcess error=2, The system cannot find the file specified
+	at java.lang.ProcessImpl.create(Native Method)
+	at java.lang.ProcessImpl.<init>(Unknown Source)
+	at java.lang.ProcessImpl.start(Unknown Source)
+	... 25 more
+
+INFO	?	main	2016-08-30T01:46:13.839Z	org.javacs.JavaLanguageServer#doLint	Lint d:\_Coding\jersey2guice\src\main\java\com\dookie\jersey\container\JerseyApplication.java
+INFO	?	main	2016-08-30T01:46:13.842Z	org.javacs.JavaLanguageServer#buildClassPath	Emit classpath to C:\Users\nolan\AppData\Local\Temp\classpath7020728114472988841.txt
+SEVERE	?	main	2016-08-30T01:46:13.843Z	org.javacs.Main$4#onError	java.io.IOException: Cannot run program "mvn" (in directory "d:\_Coding\jersey2guice"): CreateProcess error=2, The system cannot find the file specified
+java.lang.RuntimeException: java.io.IOException: Cannot run program "mvn" (in directory "d:\_Coding\jersey2guice"): CreateProcess error=2, The system cannot find the file specified
+	at org.javacs.JavaLanguageServer.buildClassPath(JavaLanguageServer.java:562)
+	at org.javacs.JavaLanguageServer.readIfConfig(JavaLanguageServer.java:525)
+	at org.javacs.JavaLanguageServer.doFindConfig(JavaLanguageServer.java:494)
+	at org.javacs.JavaLanguageServer$$Lambda$55/92623.apply(Unknown Source)
+	at java.util.HashMap.computeIfAbsent(Unknown Source)
+	at org.javacs.JavaLanguageServer.findConfig(JavaLanguageServer.java:489)
+	at org.javacs.JavaLanguageServer.findCompiler(JavaLanguageServer.java:454)
+	at org.javacs.JavaLanguageServer.doLint(JavaLanguageServer.java:310)
+	at org.javacs.JavaLanguageServer.access$400(JavaLanguageServer.java:31)
+	at org.javacs.JavaLanguageServer$1.didOpen(JavaLanguageServer.java:200)
+	at io.typefox.lsapi.services.transport.server.LanguageServerEndpoint._doAccept(LanguageServerEndpoint.xtend:198)
+	at io.typefox.lsapi.services.transport.server.LanguageServerEndpoint.doAccept(LanguageServerEndpoint.xtend:194)
+	at io.typefox.lsapi.services.transport.server.LanguageServerEndpoint.accept(LanguageServerEndpoint.xtend:114)
+	at io.typefox.lsapi.services.transport.server.LanguageServerEndpoint.accept(LanguageServerEndpoint.xtend)
+	at io.typefox.lsapi.services.transport.AbstractLanguageEndpoint.handleMessage(LanguageEndpoint.xtend:67)
+	at io.typefox.lsapi.services.transport.AbstractLanguageEndpoint.lambda$connect$4(LanguageEndpoint.xtend:61)
+	at io.typefox.lsapi.services.transport.AbstractLanguageEndpoint$$Lambda$51/20597636.accept(Unknown Source)
+	at io.typefox.lsapi.services.json.StreamMessageReader$1.apply(StreamMessageReader.java:45)
+	at io.typefox.lsapi.services.json.StreamMessageReader$1.apply(StreamMessageReader.java:43)
+	at io.typefox.lsapi.services.json.StreamMessageReader.handleMessage(StreamMessageReader.xtend:128)
+	at io.typefox.lsapi.services.json.StreamMessageReader.listen(StreamMessageReader.xtend:61)
+	at io.typefox.lsapi.services.transport.AbstractLanguageEndpoint.connect(LanguageEndpoint.xtend:60)
+	at org.javacs.Main.run(Main.java:150)
+	at org.javacs.Main.main(Main.java:69)
+Caused by: java.io.IOException: Cannot run program "mvn" (in directory "d:\_Coding\jersey2guice"): CreateProcess error=2, The system cannot find the file specified
+	at java.lang.ProcessBuilder.start(Unknown Source)
+	at java.lang.Runtime.exec(Unknown Source)
+	at java.lang.Runtime.exec(Unknown Source)
+	at org.javacs.JavaLanguageServer.buildClassPath(JavaLanguageServer.java:555)
+	... 23 more
+Caused by: java.io.IOException: CreateProcess error=2, The system cannot find the file specified
+	at java.lang.ProcessImpl.create(Native Method)
+	at java.lang.ProcessImpl.<init>(Unknown Source)
+	at java.lang.ProcessImpl.start(Unknown Source)
+	... 27 more
+
+INFO	?	main	2016-08-30T01:46:14.235Z	org.javacs.JavaLanguageServer#buildClassPath	Emit classpath to C:\Users\nolan\AppData\Local\Temp\classpath2465593069782158080.txt
+SEVERE	?	main	2016-08-30T01:46:14.235Z	org.javacs.Main$4#onError	java.io.IOException: Cannot run program "mvn" (in directory "d:\_Coding\jersey2guice"): CreateProcess error=2, The system cannot find the file specified
+java.lang.RuntimeException: java.io.IOException: Cannot run program "mvn" (in directory "d:\_Coding\jersey2guice"): CreateProcess error=2, The system cannot find the file specified
+	at org.javacs.JavaLanguageServer.buildClassPath(JavaLanguageServer.java:562)
+	at org.javacs.JavaLanguageServer.readIfConfig(JavaLanguageServer.java:525)
+	at org.javacs.JavaLanguageServer.doFindConfig(JavaLanguageServer.java:494)
+	at org.javacs.JavaLanguageServer$$Lambda$55/92623.apply(Unknown Source)
+	at java.util.HashMap.computeIfAbsent(Unknown Source)
+	at org.javacs.JavaLanguageServer.findConfig(JavaLanguageServer.java:489)
+	at org.javacs.JavaLanguageServer.findCompiler(JavaLanguageServer.java:454)
+	at org.javacs.JavaLanguageServer$2.lambda$didChangeWatchedFiles$17(JavaLanguageServer.java:352)
+	at org.javacs.JavaLanguageServer$2$$Lambda$56/23345353.accept(Unknown Source)
+	at java.util.Optional.ifPresent(Unknown Source)
+	at org.javacs.JavaLanguageServer$2.didChangeWatchedFiles(JavaLanguageServer.java:351)
+	at io.typefox.lsapi.services.transport.server.LanguageServerEndpoint._doAccept(LanguageServerEndpoint.xtend:208)
+	at io.typefox.lsapi.services.transport.server.LanguageServerEndpoint.doAccept(LanguageServerEndpoint.xtend:194)
+	at io.typefox.lsapi.services.transport.server.LanguageServerEndpoint.accept(LanguageServerEndpoint.xtend:114)
+	at io.typefox.lsapi.services.transport.server.LanguageServerEndpoint.accept(LanguageServerEndpoint.xtend)
+	at io.typefox.lsapi.services.transport.AbstractLanguageEndpoint.handleMessage(LanguageEndpoint.xtend:67)
+	at io.typefox.lsapi.services.transport.AbstractLanguageEndpoint.lambda$connect$4(LanguageEndpoint.xtend:61)
+	at io.typefox.lsapi.services.transport.AbstractLanguageEndpoint$$Lambda$51/20597636.accept(Unknown Source)
+	at io.typefox.lsapi.services.json.StreamMessageReader$1.apply(StreamMessageReader.java:45)
+	at io.typefox.lsapi.services.json.StreamMessageReader$1.apply(StreamMessageReader.java:43)
+	at io.typefox.lsapi.services.json.StreamMessageReader.handleMessage(StreamMessageReader.xtend:128)
+	at io.typefox.lsapi.services.json.StreamMessageReader.listen(StreamMessageReader.xtend:61)
+	at io.typefox.lsapi.services.transport.AbstractLanguageEndpoint.connect(LanguageEndpoint.xtend:60)
+	at org.javacs.Main.run(Main.java:150)
+	at org.javacs.Main.main(Main.java:69)
+Caused by: java.io.IOException: Cannot run program "mvn" (in directory "d:\_Coding\jersey2guice"): CreateProcess error=2, The system cannot find the file specified
+	at java.lang.ProcessBuilder.start(Unknown Source)
+	at java.lang.Runtime.exec(Unknown Source)
+	at java.lang.Runtime.exec(Unknown Source)
+	at org.javacs.JavaLanguageServer.buildClassPath(JavaLanguageServer.java:555)
+	... 24 more
+Caused by: java.io.IOException: CreateProcess error=2, The system cannot find the file specified
+	at java.lang.ProcessImpl.create(Native Method)
+	at java.lang.ProcessImpl.<init>(Unknown Source)
+	at java.lang.ProcessImpl.start(Unknown Source)
+	... 28 more
+
+INFO	?	main	2016-08-30T01:46:54.768Z	org.javacs.JavaLanguageServer#doLint	Lint d:\_Coding\jersey2guice\src\main\java\com\dookie\jersey\resource\ApplicationResource.java
+INFO	?	main	2016-08-30T01:46:54.771Z	org.javacs.JavaLanguageServer#buildClassPath	Emit classpath to C:\Users\nolan\AppData\Local\Temp\classpath4924007906961912368.txt
+SEVERE	?	main	2016-08-30T01:46:54.773Z	org.javacs.Main$4#onError	java.io.IOException: Cannot run program "mvn" (in directory "d:\_Coding\jersey2guice"): CreateProcess error=2, The system cannot find the file specified
+java.lang.RuntimeException: java.io.IOException: Cannot run program "mvn" (in directory "d:\_Coding\jersey2guice"): CreateProcess error=2, The system cannot find the file specified
+	at org.javacs.JavaLanguageServer.buildClassPath(JavaLanguageServer.java:562)
+	at org.javacs.JavaLanguageServer.readIfConfig(JavaLanguageServer.java:525)
+	at org.javacs.JavaLanguageServer.doFindConfig(JavaLanguageServer.java:494)
+	at org.javacs.JavaLanguageServer$$Lambda$55/92623.apply(Unknown Source)
+	at java.util.HashMap.computeIfAbsent(Unknown Source)
+	at org.javacs.JavaLanguageServer.findConfig(JavaLanguageServer.java:489)
+	at org.javacs.JavaLanguageServer.findCompiler(JavaLanguageServer.java:454)
+	at org.javacs.JavaLanguageServer.doLint(JavaLanguageServer.java:310)
+	at org.javacs.JavaLanguageServer.access$400(JavaLanguageServer.java:31)
+	at org.javacs.JavaLanguageServer$1.didOpen(JavaLanguageServer.java:200)
+	at io.typefox.lsapi.services.transport.server.LanguageServerEndpoint._doAccept(LanguageServerEndpoint.xtend:198)
+	at io.typefox.lsapi.services.transport.server.LanguageServerEndpoint.doAccept(LanguageServerEndpoint.xtend:194)
+	at io.typefox.lsapi.services.transport.server.LanguageServerEndpoint.accept(LanguageServerEndpoint.xtend:114)
+	at io.typefox.lsapi.services.transport.server.LanguageServerEndpoint.accept(LanguageServerEndpoint.xtend)
+	at io.typefox.lsapi.services.transport.AbstractLanguageEndpoint.handleMessage(LanguageEndpoint.xtend:67)
+	at io.typefox.lsapi.services.transport.AbstractLanguageEndpoint.lambda$connect$4(LanguageEndpoint.xtend:61)
+	at io.typefox.lsapi.services.transport.AbstractLanguageEndpoint$$Lambda$51/20597636.accept(Unknown Source)
+	at io.typefox.lsapi.services.json.StreamMessageReader$1.apply(StreamMessageReader.java:45)
+	at io.typefox.lsapi.services.json.StreamMessageReader$1.apply(StreamMessageReader.java:43)
+	at io.typefox.lsapi.services.json.StreamMessageReader.handleMessage(StreamMessageReader.xtend:128)
+	at io.typefox.lsapi.services.json.StreamMessageReader.listen(StreamMessageReader.xtend:61)
+	at io.typefox.lsapi.services.transport.AbstractLanguageEndpoint.connect(LanguageEndpoint.xtend:60)
+	at org.javacs.Main.run(Main.java:150)
+	at org.javacs.Main.main(Main.java:69)
+Caused by: java.io.IOException: Cannot run program "mvn" (in directory "d:\_Coding\jersey2guice"): CreateProcess error=2, The system cannot find the file specified
+	at java.lang.ProcessBuilder.start(Unknown Source)
+	at java.lang.Runtime.exec(Unknown Source)
+	at java.lang.Runtime.exec(Unknown Source)
+	at org.javacs.JavaLanguageServer.buildClassPath(JavaLanguageServer.java:555)
+	... 23 more
+Caused by: java.io.IOException: CreateProcess error=2, The system cannot find the file specified
+	at java.lang.ProcessImpl.create(Native Method)
+	at java.lang.ProcessImpl.<init>(Unknown Source)
+	at java.lang.ProcessImpl.start(Unknown Source)
+	... 27 more
+
+INFO	?	main	2016-08-30T01:47:01.703Z	org.javacs.JavaLanguageServer#doLint	Lint d:\_Coding\jersey2guice\src\main\java\com\dookie\jersey\service\ApplicationService.java
+INFO	?	main	2016-08-30T01:47:01.706Z	org.javacs.JavaLanguageServer#buildClassPath	Emit classpath to C:\Users\nolan\AppData\Local\Temp\classpath61740619202461533.txt
+SEVERE	?	main	2016-08-30T01:47:01.708Z	org.javacs.Main$4#onError	java.io.IOException: Cannot run program "mvn" (in directory "d:\_Coding\jersey2guice"): CreateProcess error=2, The system cannot find the file specified
+java.lang.RuntimeException: java.io.IOException: Cannot run program "mvn" (in directory "d:\_Coding\jersey2guice"): CreateProcess error=2, The system cannot find the file specified
+	at org.javacs.JavaLanguageServer.buildClassPath(JavaLanguageServer.java:562)
+	at org.javacs.JavaLanguageServer.readIfConfig(JavaLanguageServer.java:525)
+	at org.javacs.JavaLanguageServer.doFindConfig(JavaLanguageServer.java:494)
+	at org.javacs.JavaLanguageServer$$Lambda$55/92623.apply(Unknown Source)
+	at java.util.HashMap.computeIfAbsent(Unknown Source)
+	at org.javacs.JavaLanguageServer.findConfig(JavaLanguageServer.java:489)
+	at org.javacs.JavaLanguageServer.findCompiler(JavaLanguageServer.java:454)
+	at org.javacs.JavaLanguageServer.doLint(JavaLanguageServer.java:310)
+	at org.javacs.JavaLanguageServer.access$400(JavaLanguageServer.java:31)
+	at org.javacs.JavaLanguageServer$1.didOpen(JavaLanguageServer.java:200)
+	at io.typefox.lsapi.services.transport.server.LanguageServerEndpoint._doAccept(LanguageServerEndpoint.xtend:198)
+	at io.typefox.lsapi.services.transport.server.LanguageServerEndpoint.doAccept(LanguageServerEndpoint.xtend:194)
+	at io.typefox.lsapi.services.transport.server.LanguageServerEndpoint.accept(LanguageServerEndpoint.xtend:114)
+	at io.typefox.lsapi.services.transport.server.LanguageServerEndpoint.accept(LanguageServerEndpoint.xtend)
+	at io.typefox.lsapi.services.transport.AbstractLanguageEndpoint.handleMessage(LanguageEndpoint.xtend:67)
+	at io.typefox.lsapi.services.transport.AbstractLanguageEndpoint.lambda$connect$4(LanguageEndpoint.xtend:61)
+	at io.typefox.lsapi.services.transport.AbstractLanguageEndpoint$$Lambda$51/20597636.accept(Unknown Source)
+	at io.typefox.lsapi.services.json.StreamMessageReader$1.apply(StreamMessageReader.java:45)
+	at io.typefox.lsapi.services.json.StreamMessageReader$1.apply(StreamMessageReader.java:43)
+	at io.typefox.lsapi.services.json.StreamMessageReader.handleMessage(StreamMessageReader.xtend:128)
+	at io.typefox.lsapi.services.json.StreamMessageReader.listen(StreamMessageReader.xtend:61)
+	at io.typefox.lsapi.services.transport.AbstractLanguageEndpoint.connect(LanguageEndpoint.xtend:60)
+	at org.javacs.Main.run(Main.java:150)
+	at org.javacs.Main.main(Main.java:69)
+Caused by: java.io.IOException: Cannot run program "mvn" (in directory "d:\_Coding\jersey2guice"): CreateProcess error=2, The system cannot find the file specified
+	at java.lang.ProcessBuilder.start(Unknown Source)
+	at java.lang.Runtime.exec(Unknown Source)
+	at java.lang.Runtime.exec(Unknown Source)
+	at org.javacs.JavaLanguageServer.buildClassPath(JavaLanguageServer.java:555)
+	... 23 more
+Caused by: java.io.IOException: CreateProcess error=2, The system cannot find the file specified
+	at java.lang.ProcessImpl.create(Native Method)
+	at java.lang.ProcessImpl.<init>(Unknown Source)
+	at java.lang.ProcessImpl.start(Unknown Source)
+	... 27 more
+
+INFO	?	main	2016-08-30T01:47:13.497Z	org.javacs.JavaLanguageServer#buildClassPath	Emit classpath to C:\Users\nolan\AppData\Local\Temp\classpath4894337491961000868.txt
+SEVERE	?	main	2016-08-30T01:47:13.499Z	org.javacs.Main$4#onError	java.io.IOException: Cannot run program "mvn" (in directory "d:\_Coding\jersey2guice"): CreateProcess error=2, The system cannot find the file specified
+java.lang.RuntimeException: java.io.IOException: Cannot run program "mvn" (in directory "d:\_Coding\jersey2guice"): CreateProcess error=2, The system cannot find the file specified
+	at org.javacs.JavaLanguageServer.buildClassPath(JavaLanguageServer.java:562)
+	at org.javacs.JavaLanguageServer.readIfConfig(JavaLanguageServer.java:525)
+	at org.javacs.JavaLanguageServer.doFindConfig(JavaLanguageServer.java:494)
+	at org.javacs.JavaLanguageServer$$Lambda$55/92623.apply(Unknown Source)
+	at java.util.HashMap.computeIfAbsent(Unknown Source)
+	at org.javacs.JavaLanguageServer.findConfig(JavaLanguageServer.java:489)
+	at org.javacs.JavaLanguageServer.findCompiler(JavaLanguageServer.java:454)
+	at org.javacs.JavaLanguageServer$1.didClose(JavaLanguageServer.java:234)
+	at io.typefox.lsapi.services.transport.server.LanguageServerEndpoint._doAccept(LanguageServerEndpoint.xtend:202)
+	at io.typefox.lsapi.services.transport.server.LanguageServerEndpoint.doAccept(LanguageServerEndpoint.xtend:194)
+	at io.typefox.lsapi.services.transport.server.LanguageServerEndpoint.accept(LanguageServerEndpoint.xtend:114)
+	at io.typefox.lsapi.services.transport.server.LanguageServerEndpoint.accept(LanguageServerEndpoint.xtend)
+	at io.typefox.lsapi.services.transport.AbstractLanguageEndpoint.handleMessage(LanguageEndpoint.xtend:67)
+	at io.typefox.lsapi.services.transport.AbstractLanguageEndpoint.lambda$connect$4(LanguageEndpoint.xtend:61)
+	at io.typefox.lsapi.services.transport.AbstractLanguageEndpoint$$Lambda$51/20597636.accept(Unknown Source)
+	at io.typefox.lsapi.services.json.StreamMessageReader$1.apply(StreamMessageReader.java:45)
+	at io.typefox.lsapi.services.json.StreamMessageReader$1.apply(StreamMessageReader.java:43)
+	at io.typefox.lsapi.services.json.StreamMessageReader.handleMessage(StreamMessageReader.xtend:128)
+	at io.typefox.lsapi.services.json.StreamMessageReader.listen(StreamMessageReader.xtend:61)
+	at io.typefox.lsapi.services.transport.AbstractLanguageEndpoint.connect(LanguageEndpoint.xtend:60)
+	at org.javacs.Main.run(Main.java:150)
+	at org.javacs.Main.main(Main.java:69)
+Caused by: java.io.IOException: Cannot run program "mvn" (in directory "d:\_Coding\jersey2guice"): CreateProcess error=2, The system cannot find the file specified
+	at java.lang.ProcessBuilder.start(Unknown Source)
+	at java.lang.Runtime.exec(Unknown Source)
+	at java.lang.Runtime.exec(Unknown Source)
+	at org.javacs.JavaLanguageServer.buildClassPath(JavaLanguageServer.java:555)
+	... 21 more
+Caused by: java.io.IOException: CreateProcess error=2, The system cannot find the file specified
+	at java.lang.ProcessImpl.create(Native Method)
+	at java.lang.ProcessImpl.<init>(Unknown Source)
+	at java.lang.ProcessImpl.start(Unknown Source)
+	... 25 more
+
+INFO	?	main	2016-08-30T01:47:13.562Z	org.javacs.JavaLanguageServer#doLint	Lint d:\_Coding\jersey2guice\src\main\java\com\dookie\jersey\container\CustomApplication.java
+INFO	?	main	2016-08-30T01:47:13.564Z	org.javacs.JavaLanguageServer#buildClassPath	Emit classpath to C:\Users\nolan\AppData\Local\Temp\classpath6620834944053120889.txt
+SEVERE	?	main	2016-08-30T01:47:13.566Z	org.javacs.Main$4#onError	java.io.IOException: Cannot run program "mvn" (in directory "d:\_Coding\jersey2guice"): CreateProcess error=2, The system cannot find the file specified
+java.lang.RuntimeException: java.io.IOException: Cannot run program "mvn" (in directory "d:\_Coding\jersey2guice"): CreateProcess error=2, The system cannot find the file specified
+	at org.javacs.JavaLanguageServer.buildClassPath(JavaLanguageServer.java:562)
+	at org.javacs.JavaLanguageServer.readIfConfig(JavaLanguageServer.java:525)
+	at org.javacs.JavaLanguageServer.doFindConfig(JavaLanguageServer.java:494)
+	at org.javacs.JavaLanguageServer$$Lambda$55/92623.apply(Unknown Source)
+	at java.util.HashMap.computeIfAbsent(Unknown Source)
+	at org.javacs.JavaLanguageServer.findConfig(JavaLanguageServer.java:489)
+	at org.javacs.JavaLanguageServer.findCompiler(JavaLanguageServer.java:454)
+	at org.javacs.JavaLanguageServer.doLint(JavaLanguageServer.java:310)
+	at org.javacs.JavaLanguageServer.access$400(JavaLanguageServer.java:31)
+	at org.javacs.JavaLanguageServer$1.didOpen(JavaLanguageServer.java:200)
+	at io.typefox.lsapi.services.transport.server.LanguageServerEndpoint._doAccept(LanguageServerEndpoint.xtend:198)
+	at io.typefox.lsapi.services.transport.server.LanguageServerEndpoint.doAccept(LanguageServerEndpoint.xtend:194)
+	at io.typefox.lsapi.services.transport.server.LanguageServerEndpoint.accept(LanguageServerEndpoint.xtend:114)
+	at io.typefox.lsapi.services.transport.server.LanguageServerEndpoint.accept(LanguageServerEndpoint.xtend)
+	at io.typefox.lsapi.services.transport.AbstractLanguageEndpoint.handleMessage(LanguageEndpoint.xtend:67)
+	at io.typefox.lsapi.services.transport.AbstractLanguageEndpoint.lambda$connect$4(LanguageEndpoint.xtend:61)
+	at io.typefox.lsapi.services.transport.AbstractLanguageEndpoint$$Lambda$51/20597636.accept(Unknown Source)
+	at io.typefox.lsapi.services.json.StreamMessageReader$1.apply(StreamMessageReader.java:45)
+	at io.typefox.lsapi.services.json.StreamMessageReader$1.apply(StreamMessageReader.java:43)
+	at io.typefox.lsapi.services.json.StreamMessageReader.handleMessage(StreamMessageReader.xtend:128)
+	at io.typefox.lsapi.services.json.StreamMessageReader.listen(StreamMessageReader.xtend:61)
+	at io.typefox.lsapi.services.transport.AbstractLanguageEndpoint.connect(LanguageEndpoint.xtend:60)
+	at org.javacs.Main.run(Main.java:150)
+	at org.javacs.Main.main(Main.java:69)
+Caused by: java.io.IOException: Cannot run program "mvn" (in directory "d:\_Coding\jersey2guice"): CreateProcess error=2, The system cannot find the file specified
+	at java.lang.ProcessBuilder.start(Unknown Source)
+	at java.lang.Runtime.exec(Unknown Source)
+	at java.lang.Runtime.exec(Unknown Source)
+	at org.javacs.JavaLanguageServer.buildClassPath(JavaLanguageServer.java:555)
+	... 23 more
+Caused by: java.io.IOException: CreateProcess error=2, The system cannot find the file specified
+	at java.lang.ProcessImpl.create(Native Method)
+	at java.lang.ProcessImpl.<init>(Unknown Source)
+	at java.lang.ProcessImpl.start(Unknown Source)
+	... 27 more
+
+INFO	?	main	2016-08-30T01:47:13.961Z	org.javacs.JavaLanguageServer#buildClassPath	Emit classpath to C:\Users\nolan\AppData\Local\Temp\classpath1648166627500721675.txt
+SEVERE	?	main	2016-08-30T01:47:13.961Z	org.javacs.Main$4#onError	java.io.IOException: Cannot run program "mvn" (in directory "d:\_Coding\jersey2guice"): CreateProcess error=2, The system cannot find the file specified
+java.lang.RuntimeException: java.io.IOException: Cannot run program "mvn" (in directory "d:\_Coding\jersey2guice"): CreateProcess error=2, The system cannot find the file specified
+	at org.javacs.JavaLanguageServer.buildClassPath(JavaLanguageServer.java:562)
+	at org.javacs.JavaLanguageServer.readIfConfig(JavaLanguageServer.java:525)
+	at org.javacs.JavaLanguageServer.doFindConfig(JavaLanguageServer.java:494)
+	at org.javacs.JavaLanguageServer$$Lambda$55/92623.apply(Unknown Source)
+	at java.util.HashMap.computeIfAbsent(Unknown Source)
+	at org.javacs.JavaLanguageServer.findConfig(JavaLanguageServer.java:489)
+	at org.javacs.JavaLanguageServer.findCompiler(JavaLanguageServer.java:454)
+	at org.javacs.JavaLanguageServer$2.lambda$didChangeWatchedFiles$17(JavaLanguageServer.java:352)
+	at org.javacs.JavaLanguageServer$2$$Lambda$56/23345353.accept(Unknown Source)
+	at java.util.Optional.ifPresent(Unknown Source)
+	at org.javacs.JavaLanguageServer$2.didChangeWatchedFiles(JavaLanguageServer.java:351)
+	at io.typefox.lsapi.services.transport.server.LanguageServerEndpoint._doAccept(LanguageServerEndpoint.xtend:208)
+	at io.typefox.lsapi.services.transport.server.LanguageServerEndpoint.doAccept(LanguageServerEndpoint.xtend:194)
+	at io.typefox.lsapi.services.transport.server.LanguageServerEndpoint.accept(LanguageServerEndpoint.xtend:114)
+	at io.typefox.lsapi.services.transport.server.LanguageServerEndpoint.accept(LanguageServerEndpoint.xtend)
+	at io.typefox.lsapi.services.transport.AbstractLanguageEndpoint.handleMessage(LanguageEndpoint.xtend:67)
+	at io.typefox.lsapi.services.transport.AbstractLanguageEndpoint.lambda$connect$4(LanguageEndpoint.xtend:61)
+	at io.typefox.lsapi.services.transport.AbstractLanguageEndpoint$$Lambda$51/20597636.accept(Unknown Source)
+	at io.typefox.lsapi.services.json.StreamMessageReader$1.apply(StreamMessageReader.java:45)
+	at io.typefox.lsapi.services.json.StreamMessageReader$1.apply(StreamMessageReader.java:43)
+	at io.typefox.lsapi.services.json.StreamMessageReader.handleMessage(StreamMessageReader.xtend:128)
+	at io.typefox.lsapi.services.json.StreamMessageReader.listen(StreamMessageReader.xtend:61)
+	at io.typefox.lsapi.services.transport.AbstractLanguageEndpoint.connect(LanguageEndpoint.xtend:60)
+	at org.javacs.Main.run(Main.java:150)
+	at org.javacs.Main.main(Main.java:69)
+Caused by: java.io.IOException: Cannot run program "mvn" (in directory "d:\_Coding\jersey2guice"): CreateProcess error=2, The system cannot find the file specified
+	at java.lang.ProcessBuilder.start(Unknown Source)
+	at java.lang.Runtime.exec(Unknown Source)
+	at java.lang.Runtime.exec(Unknown Source)
+	at org.javacs.JavaLanguageServer.buildClassPath(JavaLanguageServer.java:555)
+	... 24 more
+Caused by: java.io.IOException: CreateProcess error=2, The system cannot find the file specified
+	at java.lang.ProcessImpl.create(Native Method)
+	at java.lang.ProcessImpl.<init>(Unknown Source)
+	at java.lang.ProcessImpl.start(Unknown Source)
+	... 28 more
+
+INFO	?	main	2016-08-30T01:47:20.514Z	org.javacs.JavaLanguageServer#buildClassPath	Emit classpath to C:\Users\nolan\AppData\Local\Temp\classpath228420668730153731.txt
+SEVERE	?	main	2016-08-30T01:47:20.515Z	org.javacs.Main$4#onError	java.io.IOException: Cannot run program "mvn" (in directory "d:\_Coding\jersey2guice"): CreateProcess error=2, The system cannot find the file specified
+java.lang.RuntimeException: java.io.IOException: Cannot run program "mvn" (in directory "d:\_Coding\jersey2guice"): CreateProcess error=2, The system cannot find the file specified
+	at org.javacs.JavaLanguageServer.buildClassPath(JavaLanguageServer.java:562)
+	at org.javacs.JavaLanguageServer.readIfConfig(JavaLanguageServer.java:525)
+	at org.javacs.JavaLanguageServer.doFindConfig(JavaLanguageServer.java:494)
+	at org.javacs.JavaLanguageServer$$Lambda$55/92623.apply(Unknown Source)
+	at java.util.HashMap.computeIfAbsent(Unknown Source)
+	at org.javacs.JavaLanguageServer.findConfig(JavaLanguageServer.java:489)
+	at org.javacs.JavaLanguageServer.findCompiler(JavaLanguageServer.java:454)
+	at org.javacs.JavaLanguageServer$1.didClose(JavaLanguageServer.java:234)
+	at io.typefox.lsapi.services.transport.server.LanguageServerEndpoint._doAccept(LanguageServerEndpoint.xtend:202)
+	at io.typefox.lsapi.services.transport.server.LanguageServerEndpoint.doAccept(LanguageServerEndpoint.xtend:194)
+	at io.typefox.lsapi.services.transport.server.LanguageServerEndpoint.accept(LanguageServerEndpoint.xtend:114)
+	at io.typefox.lsapi.services.transport.server.LanguageServerEndpoint.accept(LanguageServerEndpoint.xtend)
+	at io.typefox.lsapi.services.transport.AbstractLanguageEndpoint.handleMessage(LanguageEndpoint.xtend:67)
+	at io.typefox.lsapi.services.transport.AbstractLanguageEndpoint.lambda$connect$4(LanguageEndpoint.xtend:61)
+	at io.typefox.lsapi.services.transport.AbstractLanguageEndpoint$$Lambda$51/20597636.accept(Unknown Source)
+	at io.typefox.lsapi.services.json.StreamMessageReader$1.apply(StreamMessageReader.java:45)
+	at io.typefox.lsapi.services.json.StreamMessageReader$1.apply(StreamMessageReader.java:43)
+	at io.typefox.lsapi.services.json.StreamMessageReader.handleMessage(StreamMessageReader.xtend:128)
+	at io.typefox.lsapi.services.json.StreamMessageReader.listen(StreamMessageReader.xtend:61)
+	at io.typefox.lsapi.services.transport.AbstractLanguageEndpoint.connect(LanguageEndpoint.xtend:60)
+	at org.javacs.Main.run(Main.java:150)
+	at org.javacs.Main.main(Main.java:69)
+Caused by: java.io.IOException: Cannot run program "mvn" (in directory "d:\_Coding\jersey2guice"): CreateProcess error=2, The system cannot find the file specified
+	at java.lang.ProcessBuilder.start(Unknown Source)
+	at java.lang.Runtime.exec(Unknown Source)
+	at java.lang.Runtime.exec(Unknown Source)
+	at org.javacs.JavaLanguageServer.buildClassPath(JavaLanguageServer.java:555)
+	... 21 more
+Caused by: java.io.IOException: CreateProcess error=2, The system cannot find the file specified
+	at java.lang.ProcessImpl.create(Native Method)
+	at java.lang.ProcessImpl.<init>(Unknown Source)
+	at java.lang.ProcessImpl.start(Unknown Source)
+	... 25 more
+
+INFO	?	main	2016-08-30T01:47:20.576Z	org.javacs.JavaLanguageServer#doLint	Lint d:\_Coding\jersey2guice\src\main\java\com\dookie\jersey\module\CustomModule.java
+INFO	?	main	2016-08-30T01:47:20.578Z	org.javacs.JavaLanguageServer#buildClassPath	Emit classpath to C:\Users\nolan\AppData\Local\Temp\classpath4586895093864517987.txt
+SEVERE	?	main	2016-08-30T01:47:20.580Z	org.javacs.Main$4#onError	java.io.IOException: Cannot run program "mvn" (in directory "d:\_Coding\jersey2guice"): CreateProcess error=2, The system cannot find the file specified
+java.lang.RuntimeException: java.io.IOException: Cannot run program "mvn" (in directory "d:\_Coding\jersey2guice"): CreateProcess error=2, The system cannot find the file specified
+	at org.javacs.JavaLanguageServer.buildClassPath(JavaLanguageServer.java:562)
+	at org.javacs.JavaLanguageServer.readIfConfig(JavaLanguageServer.java:525)
+	at org.javacs.JavaLanguageServer.doFindConfig(JavaLanguageServer.java:494)
+	at org.javacs.JavaLanguageServer$$Lambda$55/92623.apply(Unknown Source)
+	at java.util.HashMap.computeIfAbsent(Unknown Source)
+	at org.javacs.JavaLanguageServer.findConfig(JavaLanguageServer.java:489)
+	at org.javacs.JavaLanguageServer.findCompiler(JavaLanguageServer.java:454)
+	at org.javacs.JavaLanguageServer.doLint(JavaLanguageServer.java:310)
+	at org.javacs.JavaLanguageServer.access$400(JavaLanguageServer.java:31)
+	at org.javacs.JavaLanguageServer$1.didOpen(JavaLanguageServer.java:200)
+	at io.typefox.lsapi.services.transport.server.LanguageServerEndpoint._doAccept(LanguageServerEndpoint.xtend:198)
+	at io.typefox.lsapi.services.transport.server.LanguageServerEndpoint.doAccept(LanguageServerEndpoint.xtend:194)
+	at io.typefox.lsapi.services.transport.server.LanguageServerEndpoint.accept(LanguageServerEndpoint.xtend:114)
+	at io.typefox.lsapi.services.transport.server.LanguageServerEndpoint.accept(LanguageServerEndpoint.xtend)
+	at io.typefox.lsapi.services.transport.AbstractLanguageEndpoint.handleMessage(LanguageEndpoint.xtend:67)
+	at io.typefox.lsapi.services.transport.AbstractLanguageEndpoint.lambda$connect$4(LanguageEndpoint.xtend:61)
+	at io.typefox.lsapi.services.transport.AbstractLanguageEndpoint$$Lambda$51/20597636.accept(Unknown Source)
+	at io.typefox.lsapi.services.json.StreamMessageReader$1.apply(StreamMessageReader.java:45)
+	at io.typefox.lsapi.services.json.StreamMessageReader$1.apply(StreamMessageReader.java:43)
+	at io.typefox.lsapi.services.json.StreamMessageReader.handleMessage(StreamMessageReader.xtend:128)
+	at io.typefox.lsapi.services.json.StreamMessageReader.listen(StreamMessageReader.xtend:61)
+	at io.typefox.lsapi.services.transport.AbstractLanguageEndpoint.connect(LanguageEndpoint.xtend:60)
+	at org.javacs.Main.run(Main.java:150)
+	at org.javacs.Main.main(Main.java:69)
+Caused by: java.io.IOException: Cannot run program "mvn" (in directory "d:\_Coding\jersey2guice"): CreateProcess error=2, The system cannot find the file specified
+	at java.lang.ProcessBuilder.start(Unknown Source)
+	at java.lang.Runtime.exec(Unknown Source)
+	at java.lang.Runtime.exec(Unknown Source)
+	at org.javacs.JavaLanguageServer.buildClassPath(JavaLanguageServer.java:555)
+	... 23 more
+Caused by: java.io.IOException: CreateProcess error=2, The system cannot find the file specified
+	at java.lang.ProcessImpl.create(Native Method)
+	at java.lang.ProcessImpl.<init>(Unknown Source)
+	at java.lang.ProcessImpl.start(Unknown Source)
+	... 27 more
+
+INFO	?	main	2016-08-30T01:47:20.983Z	org.javacs.JavaLanguageServer#buildClassPath	Emit classpath to C:\Users\nolan\AppData\Local\Temp\classpath2448172333071727898.txt
+SEVERE	?	main	2016-08-30T01:47:20.983Z	org.javacs.Main$4#onError	java.io.IOException: Cannot run program "mvn" (in directory "d:\_Coding\jersey2guice"): CreateProcess error=2, The system cannot find the file specified
+java.lang.RuntimeException: java.io.IOException: Cannot run program "mvn" (in directory "d:\_Coding\jersey2guice"): CreateProcess error=2, The system cannot find the file specified
+	at org.javacs.JavaLanguageServer.buildClassPath(JavaLanguageServer.java:562)
+	at org.javacs.JavaLanguageServer.readIfConfig(JavaLanguageServer.java:525)
+	at org.javacs.JavaLanguageServer.doFindConfig(JavaLanguageServer.java:494)
+	at org.javacs.JavaLanguageServer$$Lambda$55/92623.apply(Unknown Source)
+	at java.util.HashMap.computeIfAbsent(Unknown Source)
+	at org.javacs.JavaLanguageServer.findConfig(JavaLanguageServer.java:489)
+	at org.javacs.JavaLanguageServer.findCompiler(JavaLanguageServer.java:454)
+	at org.javacs.JavaLanguageServer$2.lambda$didChangeWatchedFiles$17(JavaLanguageServer.java:352)
+	at org.javacs.JavaLanguageServer$2$$Lambda$56/23345353.accept(Unknown Source)
+	at java.util.Optional.ifPresent(Unknown Source)
+	at org.javacs.JavaLanguageServer$2.didChangeWatchedFiles(JavaLanguageServer.java:351)
+	at io.typefox.lsapi.services.transport.server.LanguageServerEndpoint._doAccept(LanguageServerEndpoint.xtend:208)
+	at io.typefox.lsapi.services.transport.server.LanguageServerEndpoint.doAccept(LanguageServerEndpoint.xtend:194)
+	at io.typefox.lsapi.services.transport.server.LanguageServerEndpoint.accept(LanguageServerEndpoint.xtend:114)
+	at io.typefox.lsapi.services.transport.server.LanguageServerEndpoint.accept(LanguageServerEndpoint.xtend)
+	at io.typefox.lsapi.services.transport.AbstractLanguageEndpoint.handleMessage(LanguageEndpoint.xtend:67)
+	at io.typefox.lsapi.services.transport.AbstractLanguageEndpoint.lambda$connect$4(LanguageEndpoint.xtend:61)
+	at io.typefox.lsapi.services.transport.AbstractLanguageEndpoint$$Lambda$51/20597636.accept(Unknown Source)
+	at io.typefox.lsapi.services.json.StreamMessageReader$1.apply(StreamMessageReader.java:45)
+	at io.typefox.lsapi.services.json.StreamMessageReader$1.apply(StreamMessageReader.java:43)
+	at io.typefox.lsapi.services.json.StreamMessageReader.handleMessage(StreamMessageReader.xtend:128)
+	at io.typefox.lsapi.services.json.StreamMessageReader.listen(StreamMessageReader.xtend:61)
+	at io.typefox.lsapi.services.transport.AbstractLanguageEndpoint.connect(LanguageEndpoint.xtend:60)
+	at org.javacs.Main.run(Main.java:150)
+	at org.javacs.Main.main(Main.java:69)
+Caused by: java.io.IOException: Cannot run program "mvn" (in directory "d:\_Coding\jersey2guice"): CreateProcess error=2, The system cannot find the file specified
+	at java.lang.ProcessBuilder.start(Unknown Source)
+	at java.lang.Runtime.exec(Unknown Source)
+	at java.lang.Runtime.exec(Unknown Source)
+	at org.javacs.JavaLanguageServer.buildClassPath(JavaLanguageServer.java:555)
+	... 24 more
+Caused by: java.io.IOException: CreateProcess error=2, The system cannot find the file specified
+	at java.lang.ProcessImpl.create(Native Method)
+	at java.lang.ProcessImpl.<init>(Unknown Source)
+	at java.lang.ProcessImpl.start(Unknown Source)
+	... 28 more
+
